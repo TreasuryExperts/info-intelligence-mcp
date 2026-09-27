@@ -78,4 +78,6 @@ pytest
 
 ## Lizenz / Weitergabe
 
-Mitnehmbar für FFC und andere Setups. GitHub ist die Quellcode-Wahrheit.
+- **GitHub (öffentlich):** https://github.com/TreasuryExperts/info-intelligence-mcp — Quellcode-Wahrheit, Clone für alle.
+- **Ohne GitHub nutzbar:** Ordner kopieren (USB, SharePoint, ZIP) → `pip install -r requirements.txt` → `python cli.py …`. Kein Account, kein MCP, kein Cursor nötig.
+- MCP und Online-Feeds sind optional bzw. nur für den Laufinhalt, nicht für die Installation des Kits.
