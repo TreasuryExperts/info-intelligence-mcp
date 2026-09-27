@@ -1,0 +1,25 @@
+profile_id: example
+topics:
+  - id: makro
+    name: Makroökonomie
+    keywords: [ezb, inflation, zinsen, fed, leitzins]
+    weight: 0.7
+  - id: rohstoffe
+    name: Rohstoffe
+    keywords: [gold, öl, ölpreis, kupfer, brent]
+    weight: 0.5
+relevance_criteria:
+  - Auswirkungen auf Finanzierung oder Cashflow
+  - Regulatorik mit Unternehmensbezug
+sources:
+  - name: Tagesschau Wirtschaft
+    url: https://www.tagesschau.de/wirtschaft/index~rss2.xml
+    type: rss
+  - name: BBC Business
+    url: https://feeds.bbci.co.uk/news/business/rss.xml
+    type: rss
+outputs:
+  - id: digest_file
+    enabled: true
+  - id: zoho
+    enabled: false
